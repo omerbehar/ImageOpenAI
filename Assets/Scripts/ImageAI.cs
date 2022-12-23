@@ -22,7 +22,7 @@ public class ImageAI : MonoBehaviour
     [SerializeField] TextMeshProUGUI msgText;
     string adjectivePath = "Assets/english-adjectives.txt";
     string oxfordPath = "Assets/Oxford 3000 Word List No Spaces.txt";
-    string nounsPath = "Assets/english-nouns.txt";
+    string nounsPath = "Assets/Words/english-nouns.txt";
     private string adjective;
     private string control;
     private string word;
