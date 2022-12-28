@@ -25,8 +25,8 @@ public class TestPy : MonoBehaviour
     {
         PythonRunner.RunFile($"{Application.dataPath}/Scripts/Python/HelloWorldPythonScript.py");
         //PythonRunner.RunFile($"{Application.dataPath}/Scripts/Python/PyTest.py");
-        //string text = System.IO.File.ReadAllText("Assets/Scripts/Python/Response.txt");
-        //print(text);
+        string text = System.IO.File.ReadAllText("Assets/Scripts/Python/Response.txt");
+        print(text);
     }
 
 }
